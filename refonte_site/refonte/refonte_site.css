@@ -1,0 +1,109 @@
+:root {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: rgba(239, 235, 206, 0.4);
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+}
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 2vw;
+}
+p {
+  font-size: 1.5vw;
+}
+.bvn {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.block1 {
+  margin-left: 7vw;
+  margin-bottom: 5vw;
+  padding: 0 3vw;
+  width: 80vw;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(239, 235, 206, 0.8);
+}
+.block1_1 {
+  font-size: 2vw;
+  align-self: flex-start;
+}
+
+.block2,
+.block4,
+.block6 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 30vw;
+  margin-bottom: 2.5vw;
+}
+.block2_1,
+.block4_1,
+.block6_1 {
+  padding: 0 3vw;
+  width: 60vw;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(239, 235, 206, 0.8);
+  border-radius: 0 40px 40px 0;
+}
+.block2_2,
+.block4_2,
+.block6-2 {
+  width: 40vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block2_2 img,
+.block4_2 img,
+.block6_2 img {
+  width: 40vw;
+  height: 30vw;
+}
+
+.block3,
+.block5 {
+  display: flex;
+  align-items: center;
+  height: 30vw;
+  margin-bottom: 2.5vw;
+}
+.block3_1,
+.block5_1 {
+  padding: 0 3vw;
+  width: 60vw;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(239, 235, 206, 0.8);
+  border-radius: 40px 0 0 40px;
+}
+.block3_2,
+.block5_2 {
+  width: 40vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block3_2 img,
+.block5_2 img {
+  width: 40vw;
+  height: 30vw;
+}

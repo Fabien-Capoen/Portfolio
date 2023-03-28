@@ -1,0 +1,33 @@
+#nbre_myst_top{
+    height: 60%;
+    padding: 2vw;
+    /* margin-bottom: 7vw; */
+}
+#nbre_myst_top h1{
+    text-align: center;
+}
+#nbre_myst_top span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+#nbre_myst_top p{
+    font-size: 1.3vw;
+}
+
+#nbre_myst_bot{
+    height: 40%;
+}
+#champ1{
+    display: flex;
+}
+
+
+@media screen and (max-width: 1000px )  {
+    #nbre_myst_top p{
+        font-size: 3vw;
+    }
+    #nbre_myst_bot{
+        padding: 10%;
+        height: 40%;
+    }
+}

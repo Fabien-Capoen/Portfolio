@@ -1,0 +1,224 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+pre{
+    margin-left: 1vw;
+    color: #8f81c2;
+}
+.titres{
+ color: #f13e54;
+ font-weight: bold;
+ font-size: 1.1vw;
+}
+.sous-titres {
+    color : #40dd5a;
+    /* font-weight: bold; */
+    font-size: 0.9vw;
+}
+.sous-lien {
+    color :#2CDCEB;
+    /* font-weight: bold; */
+    font-size: 0.9vw;
+}
+
+.dates {
+    color : #fa9765;
+    /* font-weight: bold; */
+    font-size: 0.9vw;
+}
+
+
+#block-main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow-y: hidden;
+
+}
+
+#block-left {
+    width: 50%;
+}
+#cadre-left{
+    width: 48vw;
+    margin-left: 2vw;
+    padding: 1vw;
+    height: 94%;
+    margin-top: 3%;
+    background-color: #f8f2f9;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    overflow-y:auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    box-sizing: border-box;
+}
+
+
+#left_tittle{
+    text-align: center;
+}
+#left_logos{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+#left_ufa47, #left_w3d{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo_accueil{
+    width: 15vw;
+}
+#left_txt{
+    margin: 4vw 2vw 0 2vw;
+}
+#left_txt span{
+    font-weight: bold;
+}
+
+
+#block-right{
+    width: 50%;
+    height: 100%;
+    background-color: #2e225c;
+
+}
+#cadre-right{
+    width: 48vw;
+    height: 94%;
+    margin-top: 3%;
+    background-color: #36286c;
+    overflow-y:auto;
+    scrollbar-width: thin; /* firefox */
+}
+
+
+::-webkit-scrollbar{  /* Tout autre navigateurs */
+     /*display: none; */
+    width: 4px;
+    border-radius: 4px;
+}
+#cadre-right::-webkit-scrollbar-thumb{
+    background: #56286c;
+}
+#cadre-left::-webkit-scrollbar-thumb{
+    background: grey;
+}
+.bleu{
+    color: #2CDCEB;
+    font-size: 1.8vw;
+}
+#contexte_pro, #competences, #accueil, #nbre-myst, #srcDamier, 
+#site_w3d, #srcBalle, #veille_num, #CV, #tableau_synthese,
+#glpiInstall, #glpiUse, #fiche1, #fiche2, #fiche3, #fiche4,
+#sauvegarde_powershell, #refonteBase, #refonte, #siteUfaContexte, #siteUfa,
+#ticket_io{
+    color: #2CDCEB;
+    cursor: pointer;
+}
+#contexte_pro:hover, #competences:hover, #accueil:hover, #nbre-myst:hover, #srcDamier:hover,
+ #site_w3d:hover, #srcBalle:hover, #veille_num:hover,.lien_linke:hover, #CV:hover, #tableau_synthese:hover,
+#glpiInstall:hover, #glpiUse:hover, #fiche1:hover, #fiche2:hover, #fiche3:hover, #fiche4:hover,
+#sauvegarde_powershell:hover, #refonteBase:hover, #refonte:hover, #siteUfaContexte:hover, #siteUfa:hover,
+#ticket_io:hover{
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 1000px )  {
+    .titres{
+        color: #f13e54;
+        font-weight: bold;
+        font-size: 5vw;
+    }
+    .sous-titres {
+        color : #40dd5a;
+        /* font-weight: bold; */
+        font-size: 3vw;
+    }
+    .sous-lien {
+    color :#2CDCEB;
+    /* font-weight: bold; */
+    font-size: 3vw;
+    }
+    .dates {
+        color : #fa9765;
+        /* font-weight: bold; */
+        font-size: 3vw;
+    }
+    #block-main{
+        width: 100vw;
+        min-height: 100vh;
+        max-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        overflow-y: hidden;
+    }
+
+    #block-left {
+        width: 100%;
+        height: 50%;
+    }
+    #block-left h1{
+        font-size: 5vw;
+    }
+    #block-left h2, #block-left p{
+        font-size: 3vw;
+    }
+    #cadre-left{
+        width: 90%;
+        margin-left: 5vw;
+        height: 94%;
+        margin-top: 3%;
+        background-color: #f8f2f9;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        overflow-y:auto;
+        overflow-x: hidden;
+    }
+    .logo_accueil{
+        width: 35vw;
+    }
+
+    #block-right{
+        width: 100%;
+        height: 50%;
+        background-color: #2e225c;
+    
+    }
+    #cadre-right{
+        width: 90%;
+        height: 97%;
+        margin-top: 3%;
+        margin-left: 5%;
+        background-color: #36286c;
+        overflow-y:auto;
+        scrollbar-width: thin; /* firefox */
+    }
+    pre{
+        margin-left: 0;
+        white-space : pre-wrap;
+        line-height: 6vw;
+    }
+
+
+}
+

@@ -1,0 +1,11 @@
+#damier{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.caseDamier {
+    border: solid 1px black;
+}

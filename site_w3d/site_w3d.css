@@ -1,0 +1,601 @@
+h1 {
+    font-size: 1.8vw;
+    font-family: sans-serif;
+}
+
+h2, p{
+    font-size: 1.3vw;
+    font-family: sans-serif;
+}
+
+
+#h-back{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#poupe { 
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.bandeau {
+    max-width: 80%;
+    height: auto;
+    margin : 6% 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenu-txt{
+ width: auto;
+ height: 55%;
+ display : flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.tittle{
+    margin: 0 2% 0 2%;
+    
+}
+.tittle h1 {
+    margin-bottom: -0.6%;
+}
+
+.bandeau-rsp {
+    max-width: 80%;
+    height: auto;
+    margin : 6% 0;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+.contenu-txt-rsp{
+    width: auto;
+    align-items: center;
+}
+.test-logo{
+    display: block;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.logo-2nd{
+    width: 30%;
+}
+.txt{
+    margin : 0 2% 0 2%;
+    text-align: center;
+}
+.txt-begin {
+    margin-top: 3.5%;
+}
+.vv{
+    margin-left: 10%;
+    width: 90%;
+    min-height: 24.5vw;
+}
+
+.vv_canvas{
+    height: 80%;
+    width: 90%;
+}
+
+.block-article {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.colonne-article{
+    width: 80%;
+    margin: 8% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.colonne-article img{
+    width: 80%;
+    height: auto;
+}
+.colonne-article p{
+    text-align: justify;
+    height: auto;
+    font-size: 1.4vw;
+    margin-top: 0;
+}
+.colonne-article h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.9vw;
+    margin: 2vw 0;
+}
+
+.img-article {
+    width: 15.6%;
+    height: 8.8%;
+}
+
+.bouton {
+    width: 60%;
+    height: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bebebe;
+}
+.bouton:hover{
+    background-color: white;
+}
+.bouton a {
+    text-decoration: none;
+    font-size: 0.9vw;
+    color: black;
+}
+.bouton a:visited{
+    text-decoration: none;
+}
+
+
+.vv_carrou{
+    width: 100%;
+
+}
+#informatique-carroussel{
+    height: 23.44vw;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+#informatique-container{
+    width: 100%;
+    height: 100%
+}
+.informatiquePhoto{
+    width: 36.8vw;
+    height: 100%;
+    margin: 0;
+    display: inline-block;
+    background-size: 36.8vw 100%;
+}
+.informatique-bouton{
+font-size: 5vw;
+    color: #f9f9f9;
+    position: absolute;
+    cursor: pointer;
+    top: 37%;
+}
+#g{
+    left: 1%;
+    opacity: 0.4;
+    transition:all 0.3s ease;
+}
+#d{
+    right: 1%;
+    opacity: 0.4;
+    transition:all 0.3s ease;
+}
+#g:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    transition:all 0.3s ease;
+}
+#d:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    transition:all 0.3s ease;
+}
+
+
+
+#sect3_bis{
+    width: 80%;
+    margin: 6% 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#art1{
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+#art1 p{
+    width: 100%;
+    height: 100%;
+}
+.gmap_canvas{
+    width: 100%;
+    height: 100%;
+}
+    #art2{
+        width: 100%;
+        height: 20vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(230, 230, 230);
+    }
+    .icone_contact{
+        width: 60%;
+        text-decoration: none;
+        color: black;
+    }
+    .p_contact{
+        width: 100%;
+        margin: 7.5% 0 0 0;
+        font-size: 1.3vw;
+    }
+    .p_number{
+        width: 100%;
+        margin: 10% 0 0 0;
+        font-size: 1.3vw;
+    }
+    .fixe{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .mobile{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+    .reseau_sociaux{
+        height: 20%;
+        width: 68%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .phone, .mail{
+        display: flex;
+    }
+    .mail{
+        margin-top: 1%;
+    }
+    .icone_fa{
+        width: 40%;
+    }
+   .fa{
+    text-align: center;
+    width: 100%;
+    margin-top: 0.5vw;
+    font-size: 2.5vw;
+    /* color: #93857C; */
+    background: linear-gradient(120deg,#e6e6e6 0%,#93857C 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   }
+    .logo-rs{
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+
+
+    #form_contact{
+        margin: 6%;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    #form_contact h2{
+        margin-bottom: 2%;
+        font-size: 1.3vw;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    form input, form textarea{
+        margin-top: 1%;
+        padding: 1%;
+        width: 70%;
+        display: block;
+        font-size: 0.9vw;
+        font-family: sans-serif;
+        border-radius: 20px;
+        border-width: 0.1%;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 0.2);
+    }
+    form textarea{
+        height: 5vw;
+        border-radius: 10px;
+    }
+    form input[type="submit"]{
+        width: auto;
+        cursor: pointer;
+        margin-bottom: 3%;
+        padding: 2% 5%;
+    }
+
+
+
+
+#sect4{
+    width: 100%;
+    margin: 6%;
+    background-color: rgb(230, 230, 230);
+}
+#confiance{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#confiance p{
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+.img-confiance{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.block-line{
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lbe{
+    /* height: 40px; */
+    width: 18vw;
+    box-shadow: 0.3vw 0.3vw 0.4vw #74a7a6;
+}
+.l7575{
+    /* height: 75px; */
+    width: 9vw;
+    box-shadow: 0.3vw 0.3vw 0.4vw #74a7a6;
+}
+.llm{
+    /* height: 75px; */
+    width: 15vw;
+    box-shadow: 0.3vw 0.3vw 0.4vw #74a7a6;
+}
+.lki{
+    /* height: 75px; */
+    width: 13.5vw;
+    box-shadow: 0.3vw 0.3vw 0.4vw #74a7a6;
+}
+.l11140{
+    /* height: 40px; */
+    width: 16vw;
+    box-shadow: 0.3vw 0.3vw 0.4vw #74a7a6;
+}
+.lbi{
+    /* height: 75px; */
+    width: 12.5vw;
+    box-shadow: 0.3vw 0.3vw 0.4vw #74a7a6;
+}
+.lfe{
+    /* height: 40px; */
+    width: 24.75vw;
+    box-shadow: 0.3vw 0.3vw 0.4vw #74a7a6;
+}
+
+
+#certification {
+    margin-top: 6%;
+}
+#certification p{
+    margin-bottom: 3vw;
+    text-align: center;
+    font-weight: bold;
+}
+#certif_block{
+    width: 90%;
+    height: 45%;
+    margin-top: 3%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#certif_center{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#certif_streetView, #certif_telelogos{
+    width : 16vw;
+}
+#certif_localguides{
+    margin-top: 2vw;
+    width: 10vw;
+    margin-left: -1.5vw;
+}
+#certif_maps{
+    margin-bottom: 2vw;
+    margin-left: -1.5vw;
+    width: 10vw;
+    margin-top: 0;
+}
+
+
+
+footer{
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-txt{
+    margin: 0;
+    font-weight: bold;
+}
+#f-top {
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#f-bot{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 230, 230);
+}
+#f-bot p:nth-child(2){
+    margin: 0.4% 0;
+}
+#f-bot p:first-child{
+    margin : 0 10% 0 1.5%
+}
+#f-bot a{
+    text-decoration: none;
+    color: black;
+}
+#f-bot a:hover {
+    text-decoration: underline;
+}
+.logo-w3d{
+    width: 8%;  /* 9.24vw */
+}
+
+
+@keyframes breathe{
+    0%{opacity: 1; bottom:15vw}
+    100%{opacity: 0; bottom:10vw;}
+}
+
+@media screen and (max-width: 1000px )  {
+    .bandeau {
+        align-items: center;
+        justify-content: space-between;
+    }
+    .vv{
+        margin-left: 0;
+        width: 100%;
+        min-height: 67.5vw;  /*93.75% de la width ( 72vw) */
+    }
+    .vv_canvas{
+        height: 100%;
+        width: 100%;
+    }
+    .bouton {
+        width: 60%;
+        height: 6vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #bebebe;
+    }
+    .bouton a {
+        text-decoration: none;
+        font-size: 2.9vw;
+        color: black;
+    }
+    .vv_carrou{
+        width: 80%;
+    }
+    #informatique-carroussel{
+        height: 36.7vw;   /* hauteur du cadre du carroussel */
+        width: 100%;
+        background-color: black;
+        position: relative;
+        overflow: hidden;
+    }
+    #informatique-container{
+        width: 100%;
+        height: 100%
+    }
+    .informatiquePhoto{
+        width: 57.6vw;   /* taille du cadre du carroussel */
+        height: 100%;
+        margin: 0;
+        display: inline-block;
+        background-size: 57.6vw 100%; /* taille de l'image dans le carroussel */
+    }
+    .informatique-bouton{
+    font-size: 5vw;
+        color: #f9f9f9;
+        position: absolute;
+        cursor: pointer;
+        top: 37%;
+    }
+
+    #art1, #art2{
+        height: 45vw;
+    }
+    .fa{
+        font-size: 5.5vw;
+    }
+    .logo-rs {
+        width: 5.5vw;
+        height: 5.5vw;
+    }
+
+    #form_contact h2 {
+        margin-bottom: 2%;
+        font-size: 3vw;
+    }
+    form input, form textarea {
+        margin-top: 3%;
+        font-size: 3vw;
+    }
+    form textarea {
+        height: 15vw;
+    }
+
+    #confiance p {
+        font-size: 3vw;
+    }
+    .lbe{
+        width: 36vw;
+    }
+    .l7575{
+        width: 18vw;
+    }
+    .llm{
+        width: 30vw;
+    }
+    .lki{
+        width: 27vw;
+    }
+    .l11140{
+        width: 32vw;
+    }
+    .lbi{
+        width: 25vw;
+    }
+    .lfe{
+        width: 48vw;
+    }
+
+    #certif_streetView, #certif_telelogos {
+        width: 32vw;
+    }
+
+    #certif_localguides, #certif_maps {
+        width: 20vw;
+    }
+
+    #f-top {
+        height: 10vw;
+    }
+}

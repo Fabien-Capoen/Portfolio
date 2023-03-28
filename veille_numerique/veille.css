@@ -1,0 +1,17 @@
+#title_veille{
+    align-self: start;
+}
+.title_veille_bold {
+    font-weight: bold;
+}
+.lien_veille{
+    color: black;
+    cursor: pointer;
+}
+.txt_small{
+    font-size: 1vw;
+}
+
+.block_veille{
+    align-self: start;
+}
